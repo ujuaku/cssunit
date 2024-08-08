@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unitproject</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Stephanie's unit project</h1>
+    <p>This is to make you to understand some of the basic units in CSS which
+       are our pixel(px), percent(%), ephemeral(em), root ephemeral(rem), and 
+       viewport(vh & vw). We are also going to be applying some functions and 
+       properties to help us to illustrate how our units work. 
+    </p>
+    <br>
+    <hr>
+
+    <!-- pixel unit -->
+    <h1>Usage of pixel unit</h1>
+    <p>A pixel is the smallest dot on your screen. For example below we have square box
+       with height and width of 200px, which means there are 200 pixels on a smaller
+       screen and 200px on a larger screen, it cannot be changed because pixel is an
+       absolute value.
+    </p>
+    <div class="pixy"></div>
+    <br>
+    <hr>
+
+    <!-- percent unit -->
+    <h1>Usage of percent unit</h1>
+    <p>A percent unit is a relative unit, you might be wondering relative to what exactly.
+       If you look at the square box below you will observe that it has a smaller square
+       with a different color, the smaller square has a height and width of 50%, while the 
+       bigger box has a width and height of 200px. Now that 50% is a relative to the 200px,
+       the 200px is the parent while the 50% is the child. The 50% smaller square depends on 
+       the 200px bigger square. That is why we call the percentage unit a relative unit
+       because it can't work without depending on a parent/relative. 
+    </p>
+    <div class="outer">
+        <div class="inner"></div>
+    </div>
+    <br>
+    <hr>
+
+    <!-- EM and REM -->
+    <h1>Usage of ephemeral( <i>em</i>) unit</h1>
+    <h4>This particular text is 2em (meaning 2 * your base value) my base value here is 16</h4>
+    <em>Note em is relative to immediate parent value</em>
+    <br>
+    <hr>
+
+    <h1>Usage of ROOT ephemeral(<i>rem</i>) unit </h1>
+    <h4>This particular text is 2rem (meaning 2 * base value) my base value here is 16 </h4>
+    <em>Note REM is relative to document root  value</em>
+    <br>
+    <hr>
+
+    <!-- VH & VW -->
+    <h1>Usage of viewport (vh&vw) units </h1>
+    <p>A viewport unit takes the percentage of the screen, which means it is an absolute value,
+         it does not change no matter what happens it always uses the percent of the screen given.
+         The lightblue square box height is 100vh and the weight is 50vw, while the brown box height is 
+         100vh and the weight is 50vw. 
+    </p>
+    <div class="hero"></div>
+    <div class="about"></div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+/* pixel unit */
+.pixy{
+    background: #ff0a02;
+    height: 100px;
+    width: 100px;
+}
+
+/* percent unit */
+.outer{
+    background: #e05f11;
+    height: 200px;
+    width: 200px;
+}
+.inner{
+    background: #00f1e0;
+    height: 50%;
+    width: 50%;
+}
+
+/* ephemeral and root ephemeral unit */
+h4,i{
+    font-style: italic;
+    color:#ff0000;
+}
+
+/* viewport unit */
+.hero{
+    background: lightblue;
+    height: 100vh;
+    width: 50vw;
+}
+.about{
+    background: brown;
+    height: 100vh;
+    width: 50vw;  
+}
